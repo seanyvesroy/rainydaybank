@@ -1,0 +1,114 @@
+text3 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: left;
+  color: #000000;
+  font-weight: bold;
+  text-align: justify;
+  line-height: 11pt;
+}
+
+body {
+  background: #808080;
+}
+
+.style1 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: left;
+  color: #f0f8ff;
+  font-weight: bold;
+  text-align: justify;
+  line-height: 11pt;
+}
+
+a {
+  color: #f0f8ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #008b8b;
+  text-decoration: underline;
+}
+
+body {
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.two {
+  height: 10%;
+  width: 50%;
+}
+
+style3 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: left;
+  color: #000000;
+  font-weight: bold;
+  text-align: justify;
+  line-height: 11pt;
+}
+
+h1 {
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.footer {
+  font-family: Verdana;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.expandable {
+  text-align: centers;
+}
+
+.menu {
+  border-radius: 50%;
+  max-width: 50%;
+}
+
+.query {
+  background: #105aa4;
+}
+
+.col-1 {
+  flex-basis: 8.333%;
+}
+.col-2 {
+  flex-basis: 16.666%;
+}
+.col-3 {
+  flex-basis: 25%;
+}
+.col-4 {
+  flex-basis: 33.333%;
+}
+.col-5 {
+  flex-basis: 41.666%;
+}
+.col-6 {
+  flex-basis: 50%;
+}
+.col-7 {
+  flex-basis: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
